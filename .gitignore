@@ -5,7 +5,6 @@
 
 # production
 /build
-/dist/build.js
 
 # misc
 .DS_Store
