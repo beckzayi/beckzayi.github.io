@@ -3,13 +3,113 @@
 <head>
 	<meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Start Template</title>
+  <title>Portfolio and Examples</title>
   <meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="_/css/bootstrap.min.css">
+	<link rel="stylesheet" href="_/css/style.css">
 </head>
 <body>
-	<h1>JavaScript Roadmap - ES6, React, Redux, Webpack, Nodejs, MongoDB... oh my ...</h1>
-	<div id="root"></div>
-	<script src="/dist/bundle.js"></script>
+	<header>
+		<div class="collapse bg-dark" id="navbarHeader">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-8 col-md-7 py-4">
+						<h4 class="text-white">About</h4>
+						<p class="text-muted">Some examples of JavaScript, React, Redux, and Node.js.</p>
+					</div>
+					<div class="col-sm-4 offset-md-1 py-4">
+						<h4 class="text-white">Contact</h4>
+						<ul class="list-unstyled">
+							<li><a href="mailto:jieyi.li09@gmail.comSubject=Hello%20Github" class="text-white">Email me</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="navbar navbar-dark bg-dark shadow-sm">
+			<div class="container d-flex justify-content-between">
+				<a href="/" class="navbar-brand d-flex align-items-center">
+					<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+					<strong>B</strong>
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			</div>
+		</div>
+	</header>
+
+	<main role="main">
+		<section class="jumbotron text-center">
+			<div class="container">
+				<h1 class="jumbotron-heading">See Below</h1>
+				<p class="lead text-muted">Examples of JavaScript, React, Redux, and Node.js.</p>
+			</div>
+		</section>
+		
+		<div class="album py-5 bg-light">
+				<div class="container">
+						<div class="row">
+								<div class="col-md-4">
+									<div class="card mb-4 shadow-sm">
+										<a href="https://beckzayi.github.io/investment-portfolio-app" target="_blank">
+											<img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Investment%20Portfolio%20App" alt="Investment Portfolio App">
+										</a>
+										<div class="card-body">
+											<p class="card-text">A simple investment portfolio app build with React and Redux</p>
+											<div class="d-flex justify-content-between align-items-center">
+												<div class="btn-group">
+													<a href="https://beckzayi.github.io/investment-portfolio-app" class="btn btn-sm btn-outline-secondary" target="_blank">View</a>
+													<a class="btn btn-sm btn-outline-secondary" target="_blank">Source</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+						</div><!-- END .row-->
+
+						<div class="row">
+								<div class="col-md-4">
+									<div class="card mb-4 shadow-sm">
+										<a href="https://www.0cm.com/" target="_blank">
+											<img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=0cm" alt="0cm">
+										</a>
+										<div class="card-body">
+											<p class="card-text">An e-commerce site built with PHP</p>
+											<div class="d-flex justify-content-between align-items-center">
+												<div class="btn-group">
+													<a href="https://www.0cm.com" class="btn btn-sm btn-outline-secondary" target="_blank">View</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+	
+								<div class="col-md-4">
+									<div class="card mb-4 shadow-sm">
+										<a href="https://www.australiance.com/" target="_blank">
+											<img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Australiance" alt="Australiance">
+										</a>
+										<div class="card-body">
+											<p class="card-text">A site built with Wordpress and Sass</p>
+											<div class="d-flex justify-content-between align-items-center">
+												<div class="btn-group">
+													<a href="https://www.australiance.com/" class="btn btn-sm btn-outline-secondary" target="_blank">View</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+						</div>
+				</div><!-- END .container -->
+		</div>
+	</main>
+
+	<script src="_/js/jquery-3.3.1.slim.min.js"></script>
+	<script src="_/js/popper.min.js"></script>
+	<script src="_/js/bootstrap.min.js"></script>
+	<script src="_/js/holder.min.js"></script>
+	<script src="_/js/bundle.js"></script>
 </body>
 </html>
